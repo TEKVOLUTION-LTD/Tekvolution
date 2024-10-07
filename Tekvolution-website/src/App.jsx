@@ -11,10 +11,10 @@ function App() {
 
   return (
     <>
-    <div className='mr-[2rem] ml-[2rem]'> <Navbar /></div>
+    <div className='mr-[2rem] lg:ml-[2rem]'> <Navbar /></div>
        
 
-       <div className=" mx-auto md:my-3 mr-[2rem] ml-[2rem]">
+       <div className=" mx-auto md:my-3  ">
        <HeroSection />
        </div>
        <div className='mx-auto bg-[#FDEFFF]'><AboutUs /></div>

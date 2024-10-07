@@ -4,6 +4,13 @@ const Navbar = () => {
 
     const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+
+  //mobile menu open and close on clicking on mobile
+  const toggleNavbar = () => {
+setMobileDrawerOpen(!mobileDrawerOpen);
+
+  }
   
   const toggleServicesDropdown = () => {
     setIsServicesOpen(!isServicesOpen);
@@ -18,7 +25,7 @@ const Navbar = () => {
   return (
     
     <nav className="sticky ">
-      <div className="container mx-auto flex items-center justify-between px-4">
+      <div className="container mx-auto flex items-center justify-between lg:gap-4">
         {/* Company Logo */}
         <div className="flex items-center pt-2 ">
           <img

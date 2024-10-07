@@ -7,10 +7,15 @@ body{
 /* margin-left: 2rem;
 margin-right: 2rem; */
 background: #F0F5FA;
+font-family: "Helvetica Neue";
 }
 
 img {
   width: 12rem;
   height: 7rem;
+}
+
+p{ font-size: 14px 
+
 }
 

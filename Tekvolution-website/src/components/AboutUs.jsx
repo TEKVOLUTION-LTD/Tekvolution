@@ -4,27 +4,30 @@ import AboutImage from '../assets/AboutImage.jpg'
 const AboutUs = () => {
  
 return (
-    <div className="max-w-6xl mx-auto p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 my-20 ">
+    <div className="max-w-6xl mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 my-20 ">
       
       {/* About Us */}
-      <div className="bg-white rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
+      <div className='mx-10 lg:mx-0' >  
+        <div className="bg-white px-6 pt-6  rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
-          <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">About Us </h2>
-            <p className="text-gray-600 mb-4 ">At TEKVOLUTION LTD, we’re not just solving today's problems – we’re building the technology that empowers tomorrow’s possibilities. Committed to revolutionizing how users interact with technology by building solutions that simplify tasks and prioritize automation.</p>
-          </div>
-          
+      <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">About Us </h2>
+        <p className="text-gray-600 mb-4 ">At TEKVOLUTION LTD, we’re not just solving today's problems – we’re building the technology that empowers tomorrow’s possibilities. Committed to revolutionizing how users interact with technology by building solutions that simplify tasks and prioritize automation.</p>
       </div>
+      
+  </div>   
+  </div>
+     
       
 
       {/* Image */}
-      <div className="bg-white rounded-lg shadow-lg">
+      <div className=" ">
         
-          <div className="w-full">
+          <div className="">
             <img
               src={AboutImage}
               alt="Image"
-              className="object-cover h-full w-full rounded-r-lg"
+              className="object-cover h-full md:h-full lg:h-full w-full rounded-2xl"
             />
           </div>
         
@@ -32,7 +35,8 @@ return (
       </div>
       
       {/* Mission */}
-      <div className="bg-white rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
+      <div className="mx-10 lg:mx-0">
+      <div className="bg-white px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
       <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Mission </h2>
@@ -40,10 +44,13 @@ return (
       </div>
       
   </div>
+      </div>
+    
   
       
       {/* Vision */}
-      <div className="bg-white rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
+      <div className="mx-10 lg:mx-0">
+      <div className="bg-white px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
       <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Vision </h2>
@@ -52,6 +59,8 @@ return (
       
   </div>
   
+      </div>
+      
     </div>)
 
 }
