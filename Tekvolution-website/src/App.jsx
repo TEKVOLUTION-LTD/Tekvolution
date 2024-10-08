@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <div className='mr-[2rem] lg:ml-[2rem]'> <Navbar /></div>
+    <div className=' lg:ml-[2rem]'> <Navbar /></div>
        
 
        <div className=" mx-auto md:my-3  ">
@@ -22,7 +22,7 @@ function App() {
 
        <div className=' bg-[#FDEFFF]'>  < ContactUs  /></div>
       
-       <Footer />
+       <div className='bg-purple-600 text-white'> <Footer /></div> 
     </>
   )
 }

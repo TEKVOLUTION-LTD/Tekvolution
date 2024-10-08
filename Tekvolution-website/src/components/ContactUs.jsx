@@ -5,10 +5,10 @@ const ContactUs = () => {
   return (
 
 
-    <div className="max-w-6xl mx-auto p-10 lg:flex  sm:block md:flex justify-between gap-10 ">
+    <div className="max-w-6xl mx-auto  lg:flex  sm:block md:flex justify-between gap-10 ">
       {/* Contact Form */}
-      <div className="lg:w-1/2 sm:w-full border-4 border-[#C823ED] p-4 mb-4  rounded-2xl ">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact Us</h2>
+      <div className="lg:w-1/2 mx-10 lg:mx-0 border-4 border-[#C823ED] mx- mb-4 p-4 rounded-2xl ">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Contact Us</h2>
         <form>
           <div className="flex justify-between mb-4">
             <div className="w-1/2 mr-2">
@@ -48,7 +48,7 @@ const ContactUs = () => {
             />
           </div>
           <div className="block  text-center justify-center"> 
-            <button className="bg-[#C823ED] hover:bg-pink-300 text-white font-bold py-2 px-4 rounded-3xl">
+            <button className="bg-[#C823ED] hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-3xl">
             Let's Talk About Your Idea
           </button> </div>
           
@@ -56,14 +56,14 @@ const ContactUs = () => {
       </div>
       
       {/* Information Section */}
-      <div className="lg:w-1/2 sm:w-full items-center justify-center lg:px-10 ">
+      <div className="lg:w-1/2 sm:w-full items-center justify-center ">
         <img
           src={ContactImage}
           alt="ContatImage"
-          className="w-full h-64 object-cover rounded-lg mb-4"
+          className="w-full lg:w-fu h-64 object-cover rounded-lg mb-4"
         />
         
-        <p className="text-dark px-10 my-10 text-center ">
+        <p className="text-dark px-[5rem] my-10 text-center text-xl ">
         Looking for the solution that best fits your business needs? </p>
       </div>
     </div>
