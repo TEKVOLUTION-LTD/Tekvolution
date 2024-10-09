@@ -25,23 +25,23 @@ setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
     
-    <nav className="sticky ">
-      <div className="container mx-auto flex items-center justify-between lg:gap-4">
+    <nav className="fixed top-0 left-0 right-0 w-full z-50 bg-white shadow-md border-b-[0.3px] border-b-[#C823ED] border-dashed border shadow-[#e5dce5] drop-shadow-lg  ">
+      <div className=" mx-auto flex items-center justify-between h-[4rem]  max-w-[72rem]">
         {/* Company Logo */}
-        <div className="flex items-center pt-2 ">
+        <div className="flex items-start justify-start  ">
           <img
             src={Tekvolution} 
             alt="Tekvolution"
-              className="h-[8rem] w-[12rem] object-cover"
+              className=" w-[12rem] object-cover"
           />
         </div>
 
         {/* Menu */}
-        <div className="hidden md:flex space-x-8 items-center mr-[4rem]">
-          <a href="#home" className="text-gray-800 hover:tex-purple-600">
+        <div className="hidden md:flex space-x-8  items-end  ">
+          <a href="#home" className="text-gray-800 hover:text-purple-600 hover:text-font-extrabold">
             Home
           </a>
-          <a href="#about-us" className="text-gray-800 hover:text-purple-600">
+          <a href="#about-us" className="text-gray-800 hover:text-purple-600 hover:font-extrabold">
             About Us
           </a>
 
@@ -49,7 +49,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
           <div className="relative">
             <button
               onClick={toggleServicesDropdown}
-              className="flex items-center text-gray-800 hover:text-purple-600 focus:outline-none"
+              className="flex items-center text-gray-800 hover:text-purple-600 hover:font-extrabold focus:outline-none"
             >
               Our Services
               <svg
@@ -95,7 +95,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
           <div className="relative">
             <button
               onClick={toggleProductsDropdown}
-              className="flex items-center text-gray-800 hover:text-purple-600 focus:outline-none"
+              className="flex items-center text-gray-800 hover:text-purple-600  focus:outline-none hover:font-extrabold"
             >
               Products
               <svg
@@ -125,16 +125,16 @@ setMobileDrawerOpen(!mobileDrawerOpen);
             )}
           </div>
 
-          <a href="#academy" className="text-gray-800 hover:text-purple-600">
+          <a href="#academy" className="text-gray-800 hover:text-purple-600 hover:font-extrabold">
             Academy
           </a>
-          <a href="#contact-us" className="text-gray-800 hover:text-purple-600">
+          <a href="#contact-us" className="text-gray-800 hover:text-purple-600  hover:font-extrabold">
             Contact Us
           </a>
         </div>
 
         {/* Mobile Menu Toggle */}
-        <div className="md:hidden flex-col mr-6">
+        <div className="md:hidden flex-col mr-6 ">
           <button onClick={toggleNavbar} className="text-gray-800 focus:outline-none">
             {mobileDrawerOpen ? < XIcon /> :< MenuIcon /> }           
          
@@ -147,7 +147,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
       </div>
 {/* mobile Drawer open and close toggle links */}
       {mobileDrawerOpen && (
-          <div className="right-0  bg-purple-600 z-20 w-full flex flex-col justify-start items-start text-white p-12  lg:hidden">
+          <div className="right-0  bg-purple-600 z-20 w-full screen- flex flex-col justify-start items-start text-white p-12  lg:hidden">
 
 <a href="#home" className=" hover:text-black pb-2 ">
             Home
@@ -179,7 +179,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
               </svg>
             </button>
             {isServicesOpen && (
-              <div className="absolute bg-white text-purple-600 border shadow-lg mt-2 rounded-lg w-48 z-10">
+              <div className="absolute mx-[5rem]  bg-white text-purple-600 border shadow-lg mt-2 rounded-lg w-48 z-10">
                 <a
                   href="#software-development"
                   className="block px-4 py-2 hover:bg-gray-200"
@@ -225,7 +225,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
               </svg>
             </button>
             {isProductsOpen && (
-              <div className="absolute bg-white text-purple-600 border shadow-lg mt-2 rounded-lg w-48 z-10">
+              <div className="absolute mx-[5rem] bg-white text-purple-600 border shadow-lg mt-2 rounded-lg w-48 z-10">
                 <a
                   href="#wash-connect"
                   className="block px-4 py-2  hover:bg-gray-200"

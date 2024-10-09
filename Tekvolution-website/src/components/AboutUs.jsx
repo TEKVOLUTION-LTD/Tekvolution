@@ -4,7 +4,7 @@ import AboutImage from '../assets/AboutImage.jpg'
 const AboutUs = () => {
  
 return (
-    <div className="max-w-6xl mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 my-20 ">
+    <div className="max-w-6xl mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 my-10 lg:my-20 ">
       
       {/* About Us */}
       <div className='mx-10 lg:mx-0' >  
@@ -23,11 +23,11 @@ return (
       {/* Image */}
       <div className=" ">
         
-          <div className="">
+          <div className="mx-10 lg:mx-0">
             <img
               src={AboutImage}
               alt="Image"
-              className="object-cover h-full md:h-full lg:h-full w-full rounded-2xl"
+              className="object-cover  h-full md:h-full lg:h-full w-full rounded-xl"
             />
           </div>
         

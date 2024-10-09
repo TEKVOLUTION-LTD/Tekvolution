@@ -14,7 +14,7 @@ function App() {
     <div className=' lg:ml-[2rem]'> <Navbar /></div>
        
 
-       <div className=" mx-auto md:my-3  ">
+       <div className="  mt-[8rem] lg:mt-[8rem]  mx-auto md:my-3  ">
        <HeroSection />
        </div>
        <div className='mx-auto bg-[#FDEFFF]'><AboutUs /></div>

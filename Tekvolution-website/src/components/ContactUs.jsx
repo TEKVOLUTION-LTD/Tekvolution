@@ -4,7 +4,7 @@ import ContactImage from '../assets/ContactImage.jpg'
 const ContactUs = () => {
   return (
 
-
+        //  information section
     <div className="max-w-6xl mx-auto  lg:flex  sm:block md:flex justify-between gap-10 ">
       {/* Contact Form */}
       <div className="lg:w-1/2 mx-10 lg:mx-0 border-4 border-[#C823ED] mx- mb-4 p-4 rounded-2xl ">
@@ -55,8 +55,8 @@ const ContactUs = () => {
         </form>
       </div>
       
-      {/* Information Section */}
-      <div className="lg:w-1/2 sm:w-full items-center justify-center ">
+      {/* Image */}
+      <div className="lg:w-1/2 sm:w-full items-center justify-center mx-10 lg:mx-0">
         <img
           src={ContactImage}
           alt="ContatImage"
