@@ -1,5 +1,6 @@
 import React from 'react'
 import Recruitment from '../assets/Recuitment.jpg'
+import Bemfot from '../assets/Bemfot.png'
 
 const RecruitmentProcess = () => {
   return (
@@ -15,9 +16,7 @@ const RecruitmentProcess = () => {
             <h2 className='mx-auto text-3xl sm:text-6xl lg:text-6xl font-semibold  ' > Accelerate Growth</h2> 
             <h4 className='mx-auto text-3xl sm:text-6xl lg:text-4xl md:font-light lg:font-light pt-3'> Discover the Power of Smart Hiring <br />
             Let Us Help You Grow!</h4>
-            <button className="bg-[#C823ED] hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-3xl">
-            Find Talent Now
-          </button>
+            
             </div>
 
         
@@ -37,18 +36,21 @@ const RecruitmentProcess = () => {
     
 
 
-{/* OUR SERVICES */}
+{/* OUR RECRUITMENT PROCESSES */}
+
+<div className='justify-center items-center mx-auto'>
+    <h1 className='mx-12 mb-[-2rem] text-3xl font-bold'> Our Recruitment Process</h1>  
 
 <div className="max-w-6xl mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 my-10 lg:my-20 ">
       
-      {/* WEB DEVELOPMENT */}
+      {/* Client Requirement Gathering */}
 
       <div className='mx-10 lg:mx-0' >  
         <div className="bg-white px-6 pt-6  rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
       <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Web Development</h2>
-        <p className="text-gray-600 mb-4 ">Our web development service is driven by the goal of creating digital solutions that empower your business and engage your audience. Whether you're looking to launch a new website or revamp an existing one, our expertise ensures a smooth process from concept to deployment.
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Client Requirement Gathering</h2>
+        <p className="text-gray-600 mb-4 ">Our team collaborate with hiring managers to create a detailed job description outlining qualifications, responsibilities, and expectations.
     
   
         </p>
@@ -59,27 +61,27 @@ const RecruitmentProcess = () => {
      
       
 
-      {/* MOBILE DEVELOPMENT */}
+      {/* Sourcing Top Talents */}
 
       <div className="mx-10 lg:mx-0">
       <div className="bg-white px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
       <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Mobile Development </h2>
-        <p className="text-gray-600 mb-4 ">From concept to deployment, our mobile development service is designed to provide you with innovative, reliable, and market-ready mobile solutions. Whether you're aiming to build a customer-facing app or an internal business tool, we ensure your app meets your goals and delivers a superior user experience.</p>
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Sourcing Top Talents </h2>
+        <p className="text-gray-600 mb-4 ">Confirming the target candidate profile and understanding your industry preferences, our team uses various channels to quickly attract candidates, including job boards, social media, and referrals.</p>
       </div>
       
   </div>
       </div>
       
-      {/* Product Designs*/}
+      {/* Screening and Shortlisting*/}
 
       <div className="mx-10 lg:mx-0">
       <div className="bg-white px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
       <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Product Designs </h2>
-        <p className="text-gray-600 mb-4 ">Our UI/UX design services aim to combine aesthetics with functionality, delivering a product that not only looks beautiful but also performs flawlessly, meeting both user needs and business objectives. Whether you're launching a new product or redesigning an existing one, our expertise ensures a superior user experience that drives engagement and success</p>
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Screening and Shortlisting </h2>
+        <p className="text-gray-600 mb-4 ">Administer relevant tests or assignments to evaluate candidates' technical skills and problem-solving abilities. Conduct phone or video interviews to assess the candidate’s skills and fit.</p>
       </div>
       
   </div>
@@ -87,22 +89,42 @@ const RecruitmentProcess = () => {
     
   
       
-      {/* Project Management & development */}
+      {/* Client-Candidate Matching and 
+Placement */}
 
       <div className="mx-10 lg:mx-0">
       <div className="bg-white px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
       <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Project Management & development </h2>
-        <p className="text-gray-600 mb-4 ">Our Custom Software Development service is designed to help businesses gain a competitive edge by leveraging technology that is specifically built to address their unique requirements. Whether you need a new application, an upgrade to an existing system, or seamless integration with other platforms, we deliver solutions that are reliable, scalable, and tailored for success.</p>
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Client-Candidate Matching and 
+        Placement </h2>
+        <p className="text-gray-600 mb-4 ">Present the shortlisted candidates to the client and assist with final placement. Gather feedback from both parties after interviews and assist with negotiations, extending job offers, and onboarding the selected candidate</p>
       </div>
-      
+          
   </div>
+               
   
       </div>
-      
+
+
+    
+    
     </div>
-    
+
+
+{/* Engage Button  */}
+<div className='ml-[33rem] mt-[-2rem]'>  
+    <button className="bg-[#C823ED] hover:bg-pink-500 text-white font-bold py-2 px-10 mb-[2rem] rounded-3xl">
+            Find Talent Now
+          </button>
+     </div>
+
+     <div className='mx-12 '> <h1 className=' text-2xl font-bold'>We are trusted by enterprises and startups like:</h1> 
+     <img src={Bemfot} alt="" className=' object-cover my-8  w-[10rem] mx-[-1rem]' />
+     </div>
+ 
+</div>
+
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Software from '../assets/Software.jpg'
+import Bemfot from '../assets/Bemfot.png';
 
 const SoftwareDevelopment = () => {
   return (
@@ -36,6 +37,9 @@ const SoftwareDevelopment = () => {
 
 
 {/* OUR SERVICES */}
+
+<div className=''>  
+<h1 className='mx-12 mb-[-2rem] text-3xl font-bold'> Our Services Include:</h1>  
 
 <div className="max-w-6xl mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 my-10 lg:my-20 ">
       
@@ -100,6 +104,13 @@ const SoftwareDevelopment = () => {
       </div>
       
     </div>
+
+    <div className='mx-12 '> <h1 className=' text-2xl font-bold'>We are trusted by enterprises and startups like:</h1> 
+     <img src={Bemfot} alt="" className=' object-cover my-8  w-[10rem] mx-[-1rem]' />
+     </div>
+
+</div>
+
 
     </>
 
