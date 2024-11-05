@@ -11,8 +11,11 @@ return (
         <div className="bg-white px-6 pt-6  rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
       <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2  pt-10">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">About Us </h2>
-        <p className="text-gray-600 mb-4 ">At TEKVOLUTION LTD, we’re not just solving today's problems – we’re building the technology that empowers tomorrow’s possibilities. Committed to revolutionizing how users interact with technology by building solutions that simplify tasks and prioritize automation.</p>
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">About Us</h2>
+        <p className="text-gray-600 mb-4 ">At TEKVOLUTION LTD, we’re not just solving today's problems – we’re building the technology that empowers tomorrow’s possibilities. Committed to revolutionizing how users interact with technology by building solutions that simplify tasks and prioritize automation.
+    
+  
+        </p>
       </div>
       
   </div>   
@@ -61,7 +64,9 @@ return (
   
       </div>
       
-    </div>)
+    </div>
+    
+  )
 
 }
 
