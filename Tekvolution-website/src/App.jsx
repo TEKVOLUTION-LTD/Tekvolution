@@ -5,6 +5,8 @@ import AboutUs from './components/AboutUs'
 import Academy from './components/Academy'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
+import SoftwareDevelopment from './components/SoftwareDevelopment'
+import RecruitmentProcess from './components/RecruitmentProcess'
 
 function App() {
   
@@ -21,6 +23,11 @@ function App() {
        <Academy />
 
        <div className=' bg-[#FDEFFF]'>  < ContactUs  /></div>
+
+       <div className=' bg-[#FDEFFF] mx-auto' >  < SoftwareDevelopment  /> </div>
+       <div className=' bg-[#FDEFFF] mx-auto' >  < RecruitmentProcess  /> </div>
+
+
       
        <div className='bg-purple-600 text-white'> <Footer /></div> 
     </>
@@ -28,3 +35,4 @@ function App() {
 }
 
 export default App
+

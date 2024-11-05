@@ -1,20 +1,22 @@
 import React from 'react'
-import Software from '../assets/Software.jpg'
+import Recruitment from '../assets/Recuitment.jpg'
 
-const SoftwareDevelopment = () => {
+const RecruitmentProcess = () => {
   return (
- <>
-    {/* SOFTWARE DEVELOPMENT */}
+    <>
+    
+     {/* SOFTWARE DEVELOPMENT */}
 
-    <div   className='block sm:flex mx-12 justify-center items-center my-10 gap-5'>
+     <div   className='block sm:flex mx-12 justify-center items-center my-10 gap-5'>
       
       
       <div className=' justify-center text-center mr-[2rem] lg:mr-0 lg:w-1/2'>
-            <h2 className='mx-auto text-3xl sm:text-6xl lg:text-6xl font-semibold  ' > Software Development</h2> 
-            <h4 className='mx-auto text-3xl sm:text-6xl lg:text-4xl md:font-light lg:font-light pt-3'> Shaping the Future
-            we empower your vision with future -ready software solutions</h4>
+            <h2 className='mx-auto text-3xl sm:text-6xl lg:text-6xl font-semibold  ' > Recruit Better.</h2> 
+            <h2 className='mx-auto text-3xl sm:text-6xl lg:text-6xl font-semibold  ' > Accelerate Growth</h2> 
+            <h4 className='mx-auto text-3xl sm:text-6xl lg:text-4xl md:font-light lg:font-light pt-3'> Discover the Power of Smart Hiring <br />
+            Let Us Help You Grow!</h4>
             <button className="bg-[#C823ED] hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-3xl">
-            Let's Talk About Your Idea
+            Find Talent Now
           </button>
             </div>
 
@@ -23,7 +25,7 @@ const SoftwareDevelopment = () => {
 
             <div className="mx-10 lg:mx-0">
             <img
-              src={Software}
+              src={Recruitment}
               alt="Image"
               className="object-cover  h-full md:h-full  lg:h-[25rem] w-full rounded-xl"
             />
@@ -100,15 +102,9 @@ const SoftwareDevelopment = () => {
       </div>
       
     </div>
-
+    
     </>
-
-
-
-
-
-
   )
 }
 
-export default SoftwareDevelopment;
+export default RecruitmentProcess
