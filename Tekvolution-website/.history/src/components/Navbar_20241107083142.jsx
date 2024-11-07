@@ -194,7 +194,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
                   Product Development
                 </a>
                 <a
-                  onClick={() => scrollToSection(refs.recruitmentProcessRef)} href="#talent-development"
+                  href="#talent-development"
                   className="block px-4 py-2  hover:bg-gray-200"
                 >
                   Talent Development/Outsourcing

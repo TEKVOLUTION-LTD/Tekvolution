@@ -7,11 +7,11 @@ const SoftwareDevelopment = () => {
  <>
     {/* SOFTWARE DEVELOPMENT */}
 
-    <div   className='block sm:flex mx-12 justify-center items-center my-10 gap-5 '>
+    <div   className='block sm:flex mx-10 justify-center items-center my-10 gap-5 '>
       
       
-      <div className=' justify-center text-center mr-[2rem] lg:mr-0 lg:w-1/2'>
-            <h2 className='mx-auto text-3xl sm:text-6xl lg:text-6xl font-semibold  ' > Software Development</h2> 
+      <div className=' justify-center text-center lg:mr-[2rem]  lg:w-1/2'>
+            <h2 className='mx-auto text-3xl sm:text-6xl lg:text-6xl font-semibold lg:px-0 px-2 ' > Software Development</h2> 
             <h4 className='mx-auto text-2xl sm:text-6xl lg:text-3xl md:font-light lg:font-light pt-3 lg:px-7'> Shaping the Future
             we empower your vision with future -ready software solutions</h4>
             <button className="bg-[#C823ED] hover:bg-pink-500 text-white font-bold py-2 px-4 mt-5 mb-5 lg:mb-0 rounded-3xl">

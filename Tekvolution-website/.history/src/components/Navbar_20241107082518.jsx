@@ -182,7 +182,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
             {isServicesOpen && (
               <div className="absolute mx-[5rem]  bg-white text-purple-600 border shadow-lg mt-2 rounded-lg w-48 z-10">
                 <a
-                  onClick={() => scrollToSection(refs.softwareDevelopmentRef)} href="#software-development"
+                  href="#software-development"
                   className="block px-4 py-2 hover:bg-gray-200"
                 >
                   Software Development
@@ -194,7 +194,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
                   Product Development
                 </a>
                 <a
-                  onClick={() => scrollToSection(refs.recruitmentProcessRef)} href="#talent-development"
+                  href="#talent-development"
                   className="block px-4 py-2  hover:bg-gray-200"
                 >
                   Talent Development/Outsourcing

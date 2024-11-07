@@ -19,7 +19,7 @@ function App() {
   const recruitmentProcessRef = useRef(null);
 
   const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: 'auto' });
+    sectionRef.current.scrollIntoView({ behavior: 'jump' });
   };
 
 

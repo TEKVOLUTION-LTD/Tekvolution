@@ -19,7 +19,7 @@ function App() {
   const recruitmentProcessRef = useRef(null);
 
   const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: 'auto' });
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
 
@@ -42,10 +42,10 @@ function App() {
        <div ref={aboutUsRef} className='mx-auto bg-[#FDEFFF]'><AboutUs /></div>
        <div ref={academyRef}> <Academy /> </div> 
 
-       <div ref={contactUsRef} className=' bg-[#FDEFFF]'>  < ContactUs  /></div>
+       <div className=' bg-[#FDEFFF]'>  < ContactUs  /></div>
 
-       <div ref={softwareDevelopmentRef} className=' bg-[#FDEFFF] mx-auto' >  < SoftwareDevelopment  /> </div>
-       <div ref={recruitmentProcessRef} className=' bg-[#FDEFFF] mx-auto' >  < RecruitmentProcess  /> </div>
+       <div className=' bg-[#FDEFFF] mx-auto' >  < SoftwareDevelopment  /> </div>
+       <div className=' bg-[#FDEFFF] mx-auto' >  < RecruitmentProcess  /> </div>
 
 
       

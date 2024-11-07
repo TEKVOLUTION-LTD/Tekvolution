@@ -19,33 +19,26 @@ function App() {
   const recruitmentProcessRef = useRef(null);
 
   const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: 'auto' });
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
 
 
   return (
     <>
-    <div className=' lg:ml-[2rem]'> <Navbar scrollToSection={scrollToSection} refs={{
-          heroSectionRef,
-          aboutUsRef,
-          academyRef,
-          contactUsRef,
-          softwareDevelopmentRef,
-          recruitmentProcessRef,
-        }}    /></div>
+    <div className=' lg:ml-[2rem]'> <Navbar /></div>
        
 
-       <div ref={heroSectionRef} className="  mt-[8rem] lg:mt-[8rem]  mx-auto md:my-3  ">
+       <div className="  mt-[8rem] lg:mt-[8rem]  mx-auto md:my-3  ">
        <HeroSection />
        </div>
-       <div ref={aboutUsRef} className='mx-auto bg-[#FDEFFF]'><AboutUs /></div>
-       <div ref={academyRef}> <Academy /> </div> 
+       <div  className='mx-auto bg-[#FDEFFF]'><AboutUs /></div>
+       <Academy />
 
-       <div ref={contactUsRef} className=' bg-[#FDEFFF]'>  < ContactUs  /></div>
+       <div className=' bg-[#FDEFFF]'>  < ContactUs  /></div>
 
-       <div ref={softwareDevelopmentRef} className=' bg-[#FDEFFF] mx-auto' >  < SoftwareDevelopment  /> </div>
-       <div ref={recruitmentProcessRef} className=' bg-[#FDEFFF] mx-auto' >  < RecruitmentProcess  /> </div>
+       <div className=' bg-[#FDEFFF] mx-auto' >  < SoftwareDevelopment  /> </div>
+       <div className=' bg-[#FDEFFF] mx-auto' >  < RecruitmentProcess  /> </div>
 
 
       

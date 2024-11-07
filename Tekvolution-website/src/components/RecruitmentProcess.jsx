@@ -113,7 +113,7 @@ Placement */}
 
 
 {/* Engage Button  */}
-<div className=' lg:ml-[33rem] items-center justify-center mx-auto mt-[-2rem]'>  
+<div className=' lg:ml-[33rem] items-center justify-center lg:mx-auto  mx-[6rem] lg:mt-[-2rem] mt-[-1rem]  '>  
     <button className="bg-[#C823ED] hover:bg-pink-500 text-white mx-auto font-bold py-2 px-10 mb-[2rem] rounded-3xl">
             Find Talent Now
           </button>

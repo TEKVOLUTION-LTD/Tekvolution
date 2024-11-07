@@ -60,10 +60,10 @@ const ContactUs = () => {
         <img
           src={ContactImage}
           alt="ContatImage"
-          className="w-full lg:w-fu h-64 object-cover rounded-lg mb-4"
+          className="w-full lg:w-full h-64 object-cover rounded-lg mb-4"
         />
         
-        <p className="text-dark px-[5rem] my-10 text-center text-xl ">
+        <p className="text-dark lg:px-[5rem] px-[3rem] my-10 text-center text-xl ">
         Looking for the solution that best fits your business needs? </p>
       </div>
     </div>
