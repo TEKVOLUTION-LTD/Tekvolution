@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Tekvolution from "../assets/Tekvolution.png"
 import { MenuIcon, XIcon } from "lucide-react";
-const Navbar = ({scrollToSection, refs}) => {
+const Navbar = () => {
   
 
     const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -23,6 +23,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
   const toggleProductsDropdown = () => {
     setIsProductsOpen(!isProductsOpen);
     setIsServicesOpen(false); // Close other dropdown
+    
   };
   return (
     
@@ -39,10 +40,10 @@ setMobileDrawerOpen(!mobileDrawerOpen);
 
         {/* Menu */}
         <div className="hidden md:flex space-x-8  items-end  ">
-          <a href="#home" onClick={() => scrollToSection(refs.heroSectionRef)} className="text-gray-800 hover:text-purple-600 hover:text-font-extrabold">
+          <a href="#home" onClick={()=> scrollToSection(heroSection)} className="text-gray-800 hover:text-purple-600 hover:text-font-extrabold">
             Home
           </a>
-          <a href="#about-us" onClick={()=> scrollToSection(refs.aboutUsRef)} className="text-gray-800 hover:text-purple-600 hover:font-extrabold">
+          <a href="#about-us" onClick={()=> scrollToSection(aboutUs)} className="text-gray-800 hover:text-purple-600 hover:font-extrabold">
             About Us
           </a>
 
@@ -126,10 +127,10 @@ setMobileDrawerOpen(!mobileDrawerOpen);
             )}
           </div>
 
-          <a    onClick={() => scrollToSection(refs.academyRef)} href="#academy"  className="text-gray-800 hover:text-purple-600 hover:font-extrabold">
+          <a href="#academy" className="text-gray-800 hover:text-purple-600 hover:font-extrabold">
             Academy
           </a>
-          <a onClick={() => scrollToSection(refs.contactUsRef)} href="#contact-us" className="text-gray-800 hover:text-purple-600  hover:font-extrabold">
+          <a href="#contact-us" className="text-gray-800 hover:text-purple-600  hover:font-extrabold">
             Contact Us
           </a>
         </div>
@@ -182,7 +183,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
             {isServicesOpen && (
               <div className="absolute mx-[5rem]  bg-white text-purple-600 border shadow-lg mt-2 rounded-lg w-48 z-10">
                 <a
-                  onClick={() => scrollToSection(refs.softwareDevelopmentRef)} href="#software-development"
+                  href="#software-development"
                   className="block px-4 py-2 hover:bg-gray-200"
                 >
                   Software Development
@@ -194,7 +195,7 @@ setMobileDrawerOpen(!mobileDrawerOpen);
                   Product Development
                 </a>
                 <a
-                  onClick={() => scrollToSection(refs.recruitmentProcessRef)} href="#talent-development"
+                  href="#talent-development"
                   className="block px-4 py-2  hover:bg-gray-200"
                 >
                   Talent Development/Outsourcing
