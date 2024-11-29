@@ -74,7 +74,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto lg:flex sm:block md:flex justify-between gap-10">
+    <div className="max-w-6xl sm:block md:flex justify-between gap-10">
       {showSuccessMessage ? (
         <div className="bg-white-400 border border-pink-400 text-[#C823ED] px-4 py-3 rounded relative mx-10 lg:mx-0">
           <p>Your message has been sent successfully!</p>

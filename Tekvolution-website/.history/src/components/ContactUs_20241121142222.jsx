@@ -76,11 +76,11 @@ const ContactUs = () => {
   return (
     <div className="max-w-6xl mx-auto lg:flex sm:block md:flex justify-between gap-10">
       {showSuccessMessage ? (
-        <div className="bg-white-400 border border-pink-400 text-[#C823ED] px-4 py-3 rounded relative mx-10 lg:mx-0">
+        <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mx-10 lg:mx-0">
           <p>Your message has been sent successfully!</p>
           <button
             onClick={() => setShowSuccessMessage(false)}
-            className="mt-4 bg-[#C823ED] lg:ml-[4.2rem] hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-3xl  justify-center items-center"
+            className="mt-4 bg-[#C823ED] hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-3xl mx-auto justify-center items-center"
           >
             Dismiss
           </button>

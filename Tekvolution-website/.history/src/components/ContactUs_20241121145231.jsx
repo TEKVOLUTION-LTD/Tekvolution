@@ -80,7 +80,7 @@ const ContactUs = () => {
           <p>Your message has been sent successfully!</p>
           <button
             onClick={() => setShowSuccessMessage(false)}
-            className="mt-4 bg-[#C823ED] lg:ml-[4.2rem] hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-3xl  justify-center items-center"
+            className="mt-4 bg-[#C823ED] lg:ml-[4.2rem] mx-auto hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-3xl  justify-center items-center"
           >
             Dismiss
           </button>
