@@ -48,7 +48,7 @@ const TalentDevelopment = (contactUsRef) => {
       <div className='mx-10 lg:mx-0' >  
         <div className="bg-white px-2 lg:px-8 pt-6  rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
-      <div className=" overflow-scroll lg:overflow-hidden h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 pt-6 lg:pt-10">
+      <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 pt-6 lg:pt-10">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Client Requirement Gathering</h2>
         <p className="text-gray-600 mb-4 lg:text-lg text-lg">Our team collaborate with hiring managers to create a detailed job description outlining qualifications, responsibilities, and expectations.
     
@@ -66,7 +66,7 @@ const TalentDevelopment = (contactUsRef) => {
       <div className="mx-10 lg:mx-0">
       <div className="bg-white px-2 lg:px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
-      <div className="overflow-scroll lg:overflow-hidden h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 pt-4 lg:pt-10">
+      <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 pt-4 lg:pt-10">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Sourcing Top Talents </h2>
         <p className="text-gray-600 mb-4 lg:text-lg text-lg">Confirming the target candidate profile and understanding your industry preferences, our team uses various channels to quickly attract candidates, including job boards, social media, and referrals.</p>
       </div>
@@ -79,7 +79,7 @@ const TalentDevelopment = (contactUsRef) => {
       <div className="mx-10 lg:mx-0">
       <div className="bg-white px-2 lg:px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
       
-      <div className=" overflow-scroll lg:overflow-hidden h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 lg:pt-10 pt-4">
+      <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 lg:pt-10 pt-4">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Screening and Shortlisting </h2>
         <p className="text-gray-600 mb-4  lg:text-lg text-lg">Administer relevant tests or assignments to evaluate candidates' technical skills and problem-solving abilities. Conduct phone or video interviews to assess the candidate’s skills and fit.</p>
       </div>
@@ -95,7 +95,7 @@ Placement */}
       <div className="mx-10 lg:mx-0">
       <div className="bg-white px-2 lg:px-8 pt-6 rounded-lg shadow-lg border-l-8 border-b-8 border-t-4 border-r-4 border-t-[#C823ED] border-r-[#C823ED] border-b-[#89A3F8] border-l-[#89A3F8] ">
        
-      <div className="   overflow-scroll lg:overflow-hidden h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 lg:pt-10  pt-4">
+      <div className=" h-[20rem] justify-center text-center lg:pr-12 sm:pr-2 lg:pl-12 sm:pl-2 lg:pt-10  pt-4">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Client-Candidate Matching and 
         Placement </h2>
         <p className="text-gray-600 mb-4 lg:text-lg text-lg ">Present the shortlisted candidates to the client and assist with final placement. Gather feedback from both parties after interviews and assist with negotiations, extending job offers, and onboarding the selected candidate</p>
@@ -124,7 +124,6 @@ Placement */}
      </div>
  
 </div>
-
 
     </>
   )

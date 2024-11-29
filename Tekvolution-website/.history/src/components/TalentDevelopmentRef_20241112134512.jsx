@@ -122,7 +122,7 @@ Placement */}
      <div className='mx-12 '> <h1 className=' text-2xl font-bold text-center'>We are trusted by enterprises and startups like:</h1> 
      <img src={Bemfot} alt="" className=' object-cover my-8  w-[10rem] lg:mx-[-1rem] mx-auto' />
      </div>
- 
+ button=
 </div>
 
 
